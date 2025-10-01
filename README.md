@@ -5,7 +5,7 @@
 
 
 <h4>Sobre o Projeto</h4>
-<p>Aqui você encontrarar nossa loja de produtos de DragonBall. Nesta loja nós a desenvolvemos por meio de html, css e javascript. Com botões home, carrinhos de compras e sistema de login e senha. .</p>
+<p>Aqui você encontrará nossa loja de produtos de DragonBall. Nesta loja nós a desenvolvemos por meio de html, css e javascript. Com botões home, carrinhos de compras e sistema de login e senha. .</p>
 <br>
 
 <img width="500" height="430" alt="image" src="https://github.com/user-attachments/assets/471272fc-e191-4f6f-831e-937da80f0821" />
