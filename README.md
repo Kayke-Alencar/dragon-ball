@@ -8,7 +8,9 @@
 <p>Aqui você encontrará nossa loja de produtos de DragonBall. Nesta loja nós a desenvolvemos por meio de html, css e javascript. Com botões home, carrinhos de compras e sistema de login e senha. .</p>
 <br>
 
-<img width="500" height="430" alt="image" src="https://github.com/user-attachments/assets/471272fc-e191-4f6f-831e-937da80f0821" />
+![IMG-20251006-WA0003](https://github.com/user-attachments/assets/1720d754-fb23-4bf0-9586-10a8520cb619)
+
+
 
 
 <br/>
