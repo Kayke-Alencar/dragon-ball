@@ -6,9 +6,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f5f5f5;
-  background: url(/img/fundo\ opaco\ preto.png) no-repeat center center fixed;
-  background-size: cover;
+  background-image: url("../img/fundo.png");
+
 }
 
 /* Navbar */
@@ -149,6 +148,7 @@ h1 {
   cursor: pointer;
   transition: background 0.3s;
   margin-top: auto;
+  border: none;
 }
 
 .btn:hover {
