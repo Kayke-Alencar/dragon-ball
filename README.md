@@ -9,7 +9,7 @@
   <br> Nossa Pagina consta com os seguintes botões: "Home","Sobre","Cadastro","Carrinho de compras" e "login.</p>
 <br>
 
-![IMG-20251006-WA0003](https://github.com/user-attachments/assets/1720d754-fb23-4bf0-9586-10a8520cb619)
+<img width=650, heigth=650 src="https://github.com/user-attachments/assets/bd948989-0a5d-4008-ae75-0179b6073329">
 
 
 
