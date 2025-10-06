@@ -1,4 +1,4 @@
-<h1>dragon-ball</h1>
+<h1>Loja Dragon-Ball</h1>
 <h3>Desenvolvimento Web - Prof:Bruno</h3>
 
 <p>Membros:<br> Kayke Alencar Silva, <br> Gabriel  Benatto Alencar Stolses,<br> Helder Virissio Araujo,<br> Arthur de Oliveira Borges,<br> Diego Lima Henrique,<br> Vitor Antonio Romulaldo</p>
