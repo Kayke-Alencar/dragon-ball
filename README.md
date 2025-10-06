@@ -5,8 +5,8 @@
 
 
 <h4>Sobre o Projeto</h4>
-<p>Aqui você encontrará nossa loja de produtos de DragonBall. Nesta loja nós a desenvolvemos por meio de html, css e javascript. Utilizamos também Framework Bootstrap
-  Nossa Pagina consta com os seguintes botões: "Home","Sobre","Cadastro","Carrinho de compras" e "login. .</p>
+<p>Aqui você encontrará nossa loja de produtos de DragonBall. <br> Nesta loja nós a desenvolvemos por meio de html, css e javascript. Utilizamos também Framework Bootstrap
+  <br> Nossa Pagina consta com os seguintes botões: "Home","Sobre","Cadastro","Carrinho de compras" e "login.</p>
 <br>
 
 ![IMG-20251006-WA0003](https://github.com/user-attachments/assets/1720d754-fb23-4bf0-9586-10a8520cb619)
