@@ -429,7 +429,6 @@ animation: fadeIn 0.8 ease-in-out;
   margin: 0 auto;
   padding: 0;
   box-shadow: border-box;
-  background-color: rgb(93 93 93 / 47%);
   width: 1300px;
   height: 900px;
   backdrop-filter: blur(20px);
