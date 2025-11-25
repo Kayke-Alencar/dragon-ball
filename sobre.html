@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DragonStore</title>
+  <link rel="website icon" type="png" href="./img/Logo shein Long alta resolucao-Photoroom.png">
+  <link rel="stylesheet" href="./Style/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <!-- popup Login --> 
+  <div class="popup" id="popupLogin">
+    <div class="popup-content">
+      <span class="fechar-popup" onclick="fecharPopup()">✖</span>
+      <h2>Login</h2>
+      <input type="text" id="usuario" placeholder="Usuário">
+      <input type="password" id="senha" placeholder="Senha">
+      <button onclick="login()">Avançar</button>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+      <img src="./img/Logo shein Long alta resolucao-Photoroom.png" alt="DragonStore logo" style="height: 50px;">
+      DragonStore
+    </div>
+
+    <div class="nav-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+
+      <button id="btnCarrinho" class="login-btn" onclick="abrirCarrinho()">
+        <i class="bi bi-cart2"></i><span id="badgeCarrinho">0</span>
+      </button>
+
+      <!-- Área de login dinâmica -->
+      <div id="login-area" class="login-btn">
+        <button class="login-btn" onclick="abrirPopup()"><i class="bi bi-person-fill"></i>Login</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Conteúdo da página -->
+  <main>
+    <div class="sobre-titulo">
+      <img src="./img/Logo shein Long alta resolucao-Photoroom.png" alt="Logo DragonStore">
+      <div class="sobre">
+        <h2>
+          Bem-vindo à DragonStore.<br>
+          Aqui você encontra os melhores produtos exclusivos do universo Dragon Ball.<br>
+          Action figures detalhados, camisetas estilosas e mangás para os verdadeiros fãs da saga e muito mais.<br>
+          Nossa missão é trazer qualidade, autenticidade e muita nostalgia para sua coleção.<br>
+          Navegue, escolha seus favoritos e reviva as aventuras dos guerreiros mais poderosos da galáxia.<br>
+          Prepare-se para elevar seu nível com a DragonStore!
+        </h2>
+      </div>
+    </div>
+
+    <!-- Popup Carrinho -->
+    <div class="popup" id="popupCarrinho">
+      <div class="popup-content" style="width: 500px; max-height: 80vh; overflow-y: auto;">
+        <span class="fechar-popup" onclick="fecharCarrinho()">✖</span>
+        <h2>Seu Carrinho</h2>
+        <ul id="lista-carrinho-popup" style="list-style:none; padding:0; max-height: 300px; overflow-y: auto;"></ul>
+        <p id="total-popup" style="font-weight: bold; font-size: 18px; margin-top: 15px; text-align: right;">Total: R$ 0.00</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- JavaScript -->
+  <script src="js/app.js"></script>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="interface">
+
+      <section class="line-footer1">
+        <h2>Quer receber promoções exclusivas?</h2>
+        <p>Inscreva-se para receber promoções exclusivas:</p>
+        <form>
+          <input type="e-mail">
+          <input type="submit" value="Cadastrar">
+        </form>
+      </section>
+
+      <section class="line-footer2">
+        <div class="box-line-footer">
+          <img src="./img/Logo shein Long alta resolucao-Photoroom.png" alt="Logotipo Dragonstore">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi similique ea minima!</p>
+        </div>
+
+        <div class="box-line-footer">
+          <h3>Links úteis:</h3>
+          <div class="links-footer">
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="cadastro.html">Cadastro</a>
+          </div>
+        </div>
+
+        <div class="box-line-footer">
+          <h3>Atendimento</h3>
+          <h4>
+            07:00 às 18:00 - Segunda à sexta<br>
+            07:00 às 12:00 - Sábado<br>
+            Exceto domingos e feriados<br><br>
+            Contato: +55 (XX)XXXX-XXXX<br>
+            E-mail: atendimento@dragonstore.com
+          </h4>
+        </div>
+      </section>
+
+      <section class="line-footer3">
+        <p>DragonStore 2025 &copy; Todos os direitos reservados</p>
+      </section>
+
+    </div>
+  </footer>
+</body>
+</html>

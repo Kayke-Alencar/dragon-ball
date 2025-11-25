@@ -1,5 +1,5 @@
 p{
-  color: #29b971;
+  color: #ffffff;
 }
 
 body {
@@ -158,7 +158,7 @@ h1 {
 /* Carrinho */
 #carrinho {
   margin-top: 40px;
-  background: #fff;
+  background: #ffffff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -177,13 +177,13 @@ h1 {
   display: flex;
   justify-content: space-between;
   padding: 8px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #ffffff;
 }
 #lista-carrinho-popup .remover {
   padding: 0px;
   font-size: 15px;
-  background-color: white;
-  border-color: white;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 0, 0);
   
 }
 
@@ -216,7 +216,7 @@ h1 {
   padding-right: 40px;
 }
 .remover:hover {
-background: rgb(226, 8, 8);
+background: rgb(255, 0, 0);
 }
 
 #total {
@@ -330,4 +330,189 @@ animation: fadeIn 0.8 ease-in-out;
 @keyframes slideDown {
   from { transform: translateY(-50px); opacity: 0;}
   to { transform: translateY(0); opacity: 1;}
+}
+
+/* Cadastro */
+
+#form {
+    width: 220px;           
+    height: 220px;          
+    border: 5px solid #EFC978;
+    border-radius: 50%;    
+    object-fit: cover;      
+    margin-bottom: 30px; 
+}
+
+/* Estilo para o formulário de cadastro */
+
+#form{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  border-radius: 10px;
+  padding: 60px;
+  width: min-content;
+  align-items: center;
+  color: black;
+}
+
+.tittle{
+  font-size: 1.8em;
+  margin-bottom: 10%;
+
+}
+
+
+
+
+
+
+
+
+
+/* Pagina Sobre*/
+
+.sobre-titulo{
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: border-box;
+  background-color: rgb(0, 0, 0) ;
+  width: 1300px;
+  height: 900px;
+}
+
+.sobre-titulo h1{
+  text-align: center;
+  color: orangered;
+}
+
+.sobre-titulo img{
+  width: 200px;
+  height: 200px;
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.sobre-titulo .sobre{
+  text-align: center;
+  font-size: 30px;
+  padding: 30px;
+  color: white;
+}
+
+
+
+/* Rodapé */
+*{
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+
+
+}
+
+.interface{
+  max-width: 1800px;
+  margin: 0 auto;
+
+}
+
+footer{
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 40px 0;
+
+}
+
+footer .line-footer1{
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 40px;
+
+}
+
+.line-footer1 h2{
+  font-size: 2.5ram;
+}
+
+.line-footer1 p{
+  font-size: 1.2ram;
+  margin: 10px 0 20px 0;
+}
+
+.line-footer1 form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line-footer1 form input[type=e-mail]{
+  width: 300px;
+  height: 15px;
+  background: white;
+  border: 2px solid #fff;
+  color: black;
+  padding: 10px;
+  outline: 0;
+}
+
+.line-footer1 form input[type=submit]{
+  width: 80px;
+  height: 40px;
+  background-color: orangered;
+  border-color: 0;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+
+
+
+}
+
+.line-footer1 form input[type=submit]:hover{
+  background: #fff;
+  color: orangered;
+  
+}
+
+footer .line-footer2{
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+
+
+}
+
+footer .line-footer2 .box-line-footer{
+  width: calc(100% /3);
+}
+
+footer .box-line-footer img{
+  max-width: 80px;
+  margin-bottom: 10px;
+}
+
+.line-footer2 .box-line-footer h3{
+  color: orangered;
+  margin-bottom: 20px;
+
+}
+
+.line-footer2 .box-line-footer a{
+  color: #fff;
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: .9ram;
+
+}
+
+footer .line-footer3{
+  padding-top: 40px;
+  text-align: center;
 }
