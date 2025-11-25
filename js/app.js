@@ -1,6 +1,6 @@
-// ======================================
-// ==== SISTEMA DE USUÁRIOS LOCALSTORAGE =
-// ======================================
+
+//SISTEMA DE USUÁRIOS LOCALSTORAGE =
+
 
 // Recupera lista de usuários
 let usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
@@ -28,12 +28,12 @@ function atualizarAreaLogin() {
 
     if (usuario) {
         area.innerHTML = `
-            <span class="welcome">Olá, <b>${usuario.usuario}</b></span>
-            <button class="btnSair" onclick="logout()">Sair</button>
+            <span class="welcome" onclick="logout()">Olá, ${usuario.usuario}</span>
+            <button class="btnSair" onclick="logout()" style="background:none; border:none">Sair</button>
         `;
     } else {
         area.innerHTML = `
-            <button class="btnLogin" onclick="abrirPopup()">Login</button>
+            <button onclick="abrirPopup()" style="background: none; border: none;"><i class="bi bi-person-fill" ></i>Login</button>
         `;
     }
 }
@@ -48,9 +48,8 @@ function logout() {
 
 
 
-// ======================================
-// =============== CADASTRAR ============
-// ======================================
+
+// CADASTRAR 
 
 function cadastrar(event) {
     event.preventDefault();
@@ -95,10 +94,8 @@ function cadastrar(event) {
 
 
 
-// ======================================
-// ================= LOGIN ==============
-// ======================================
 
+// LOGIN 
 function login() {
     const usuario = document.getElementById("usuario").value.trim();
     const senha = document.getElementById("senha").value.trim();
@@ -120,10 +117,8 @@ function login() {
 
 
 
-// ======================================
-// ========= LISTA DE PRODUTOS ==========
-// ======================================
 
+// LISTA DE PRODUTOS 
 const produtos = [
     { id: 1, nome: "Action-figure Goku", preco: 449.90, imagem: "img/action_goku.png" },
     { id: 2, nome: "Action-figure Gogeta", preco: 399.90, imagem: "img/action_gogeta.png" },
@@ -154,10 +149,8 @@ if (container) {
 
 
 
-// ======================================
-// ============ CARRINHO ================
-// ======================================
 
+// CARRINHO 
 let carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
 
 function adicionarCarrinho(id) {
@@ -248,10 +241,8 @@ function finalizarCompra() {
 atualizarCarrinho();
 
 
-// ======================================
-// =============== POPUPS ===============
-// ======================================
 
+//  POPUPS
 function abrirPopup() {
     document.getElementById("popupLogin").style.display = "flex";
 }
@@ -270,8 +261,6 @@ function fecharCarrinho() {
 
 
 
-// ======================================
-// ==== INICIALIZA ÁREA DE LOGIN ========
-// ======================================
 
+// INICIALIZA ÁREA DE LOGIN
 document.addEventListener("DOMContentLoaded", atualizarAreaLogin);
